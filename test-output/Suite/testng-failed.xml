@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="project2_test.TestCase12">
+        <methods>
+          <include name="login_search_logout"/>
+          <include name="Launch"/>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- project2_test.TestCase12 -->
+      <class name="project2_test.TestCase1">
+        <methods>
+          <include name="Launch"/>
+          <include name="SignUp"/>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- project2_test.TestCase1 -->
+      <class name="project2_test.TestCase8">
+        <methods>
+          <include name="additional_Details"/>
+          <include name="Launch"/>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- project2_test.TestCase8 -->
+      <class name="project2_test.TestCase13">
+        <methods>
+          <include name="Launch"/>
+          <include name="Coupon_Code"/>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- project2_test.TestCase13 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

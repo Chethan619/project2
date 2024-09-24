@@ -1,0 +1,348 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 23 17:59:26 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>481 seconds (481245 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='project2_test.TestCase1.SignUp()'><b>SignUp</b><br>Test class: project2_test.TestCase1<br/>
+<a href="#Output-1864683077" onClick='toggleBox("Output-1864683077", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1864683077" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1864683077">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>project2_test.TestCase1@41a0aa7d</td></tr>
+<tr>
+<td title='project2_test.TestCase12.login_search_logout()'><b>login_search_logout</b><br>Test class: project2_test.TestCase12<br/>
+<a href="#Output-1443000737" onClick='toggleBox("Output-1443000737", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1443000737" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1443000737">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>project2_test.TestCase12@f09733f</td></tr>
+<tr>
+<td title='project2_test.TestCase8.additional_Details()'><b>additional_Details</b><br>Test class: project2_test.TestCase8<br/>
+<a href="#Output-1410186665" onClick='toggleBox("Output-1410186665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1410186665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1410186665">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>project2_test.TestCase8@229c6181</td></tr>
+<tr>
+<td title='project2_test.TestCase4.one_way_flight()'><b>one_way_flight</b><br>Test class: project2_test.TestCase4<br/>
+<a href="#Output-2074109190" onClick='toggleBox("Output-2074109190", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2074109190" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2074109190">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>project2_test.TestCase4@2794eab6</td></tr>
+<tr>
+<td title='project2_test.TestCase11.passenger_info()'><b>passenger_info</b><br>Test class: project2_test.TestCase11<br/>
+<a href="#Output-634440506" onClick='toggleBox("Output-634440506", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-634440506" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-634440506">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>project2_test.TestCase11@4b45a2f5</td></tr>
+<tr>
+<td title='project2_test.TestCase15.Till_Payement_Page()'><b>Till_Payement_Page</b><br>Test class: project2_test.TestCase15<br/>
+<a href="#Output-1511004956" onClick='toggleBox("Output-1511004956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1511004956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1511004956">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>project2_test.TestCase15@54a7079e</td></tr>
+<tr>
+<td title='project2_test.TestCase3.Login_invalid()'><b>Login_invalid</b><br>Test class: project2_test.TestCase3<br/>
+<a href="#Output-878765293" onClick='toggleBox("Output-878765293", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-878765293" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-878765293">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>project2_test.TestCase3@13e344d</td></tr>
+<tr>
+<td title='project2_test.TestCase9.Multiple_Passenger()'><b>Multiple_Passenger</b><br>Test class: project2_test.TestCase9<br/>
+<a href="#Output-671981276" onClick='toggleBox("Output-671981276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-671981276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-671981276">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>project2_test.TestCase9@4686afc2</td></tr>
+<tr>
+<td title='project2_test.TestCase2.Login()'><b>Login</b><br>Test class: project2_test.TestCase2<br/>
+<a href="#Output-319352601" onClick='toggleBox("Output-319352601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-319352601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-319352601">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>project2_test.TestCase2@45099dd3</td></tr>
+<tr>
+<td title='project2_test.TestCase14.Domestic_RoundTrip()'><b>Domestic_RoundTrip</b><br>Test class: project2_test.TestCase14<br/>
+<a href="#Output-900073076" onClick='toggleBox("Output-900073076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-900073076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-900073076">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>project2_test.TestCase14@38cee291</td></tr>
+<tr>
+<td title='project2_test.TestCase13.Coupon_Code()'><b>Coupon_Code</b><br>Test class: project2_test.TestCase13<br/>
+<a href="#Output-1144979403" onClick='toggleBox("Output-1144979403", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1144979403" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1144979403">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>project2_test.TestCase13@791f145a</td></tr>
+<tr>
+<td title='project2_test.TestCase5.Round_Trip()'><b>Round_Trip</b><br>Test class: project2_test.TestCase5<br/>
+<a href="#Output-647786756" onClick='toggleBox("Output-647786756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-647786756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-647786756">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>project2_test.TestCase5@6340e5f0</td></tr>
+<tr>
+<td title='project2_test.TestCase6.senior_citizen()'><b>senior_citizen</b><br>Test class: project2_test.TestCase6<br/>
+<a href="#Output-684220724" onClick='toggleBox("Output-684220724", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-684220724" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-684220724">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>project2_test.TestCase6@1e0b4072</td></tr>
+<tr>
+<td title='project2_test.TestCase10.Flight_Details()'><b>Flight_Details</b><br>Test class: project2_test.TestCase10<br/>
+<a href="#Output-1814730197" onClick='toggleBox("Output-1814730197", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1814730197" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1814730197">
+Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>project2_test.TestCase10@e350b40</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='project2_test.TestCase1.SignUp()'><b>SignUp</b><br>Test class: project2_test.TestCase1</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (82, 625)
+  (Session info: chrome=128.0.6613.138)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e12fa15db8198e39c31ee383c6b1c5, clickElement {id=f.CB5E50380E1BDF0EAE5D34198D4F71D3.d.892CA038A472DEDB4068F04D4A108761.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53718}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53718/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (40e12fa15db8198e39c31ee383c6b1c5)] -&gt; id: defaultCheck1]
+Session ID: 40e12fa15db8198e39c31ee383c6b1c5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+	at project2_source.Signup_page_Spicejet.checkbox(Signup_page_Spicejet.java:118)
+	at project2_test.TestCase1.SignUp(TestCase1.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1955136744", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1955136744'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (82, 625)
+  (Session info: chrome=128.0.6613.138)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e12fa15db8198e39c31ee383c6b1c5, clickElement {id=f.CB5E50380E1BDF0EAE5D34198D4F71D3.d.892CA038A472DEDB4068F04D4A108761.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53718}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53718/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (40e12fa15db8198e39c31ee383c6b1c5)] -&gt; id: defaultCheck1]
+Session ID: 40e12fa15db8198e39c31ee383c6b1c5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+	at project2_source.Signup_page_Spicejet.checkbox(Signup_page_Spicejet.java:118)
+	at project2_test.TestCase1.SignUp(TestCase1.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>42</td>
+<td>project2_test.TestCase1@41a0aa7d</td></tr>
+</table><p>
+</body>
+</html>
